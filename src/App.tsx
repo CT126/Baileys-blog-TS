@@ -1,4 +1,3 @@
-// src/App.tsx
 import React from 'react';
 import { Layout, Menu, Button } from 'antd';
 import './index.css';
