@@ -1,1 +1,1 @@
-Trying to the bailey blog using Typescript
+Trying to do the bailey blog using Typescript
