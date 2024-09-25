@@ -4,4 +4,4 @@ npm install react-router-dom
 You need to install 'antd':
 npm install antd
 You need typesrcipt version 5.6.2
-You need react version 5 also 
+You need react version 5.5
