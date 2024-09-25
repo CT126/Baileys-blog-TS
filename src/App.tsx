@@ -10,7 +10,31 @@ const App: React.FC = () => {
     <Layout>
       <Header className="navbar">
         <div className="logo">
-          <a href="about me.php" style={{ color: 'black' }}>Bailey Blog</a>
+        <a
+  href="about me.php"
+  style={{
+    color: 'black',
+    fontSize: '1.5rem', 
+    fontWeight: 'bold', 
+    textDecoration: 'none', 
+    padding: '2px 5px', 
+    borderRadius: '30px', 
+    backgroundColor: '#FFC371',
+    boxShadow: '0 4px 10px rgba(0, 0, 0, 0.3)', 
+    transition: 'background-color 0.3s ease, transform 0.3s ease', 
+  }}
+  onMouseEnter={(e) => {
+    e.currentTarget.style.backgroundColor = '#FF5F6D'; 
+    e.currentTarget.style.transform = 'scale(1.05)'; 
+  }}
+  onMouseLeave={(e) => {
+    e.currentTarget.style.backgroundColor = '#FFC371'; 
+    e.currentTarget.style.transform = 'scale(1)'; 
+  }}
+>
+  Bailey Blog
+</a>
+
         </div>
         <Menu mode="horizontal" defaultSelectedKeys={['1']} className="navbar-menu">
           <Menu.Item key="1">
