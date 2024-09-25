@@ -1,3 +1,4 @@
+
 import React from 'react';
 import { Layout, Menu, Button } from 'antd';
 import './index.css';
@@ -18,9 +19,6 @@ const App: React.FC = () => {
     textDecoration: 'none', 
     padding: '2px 5px', 
     borderRadius: '30px', 
-    backgroundColor: '#FFC371',
-    boxShadow: '0 4px 10px rgba(0, 0, 0, 0.3)', 
-    transition: 'background-color 0.3s ease, transform 0.3s ease', 
   }}
   onMouseEnter={(e) => {
     e.currentTarget.style.backgroundColor = '#FF5F6D'; 
@@ -37,16 +35,16 @@ const App: React.FC = () => {
         </div>
         <Menu mode="horizontal" defaultSelectedKeys={['1']} className="navbar-menu">
           <Menu.Item key="1">
-            <a href="index.html" style={{ color: 'black' }}>Home</a>
+            <a href="index.tsx" style={{ color: 'black' }}>Home</a>
           </Menu.Item>
           <Menu.Item key="2">
-            <a href="Gallery.html" style={{ color: 'black' }}>Gallery</a>
+            <a href="Gallery.tsx" style={{ color: 'black' }}>Gallery</a>
           </Menu.Item>
           <Menu.Item key="3">
-            <a href="Breed Information.html" style={{ color: 'black' }}>Breed Information</a>
+            <a href="Breed Information.tsx" style={{ color: 'black' }}>Breed Information</a>
           </Menu.Item>
           <Menu.Item key="4">
-            <a href="about.html" style={{ color: 'black' }}>About Bailey</a>
+            <a href="about." style={{ color: 'black' }}>About Bailey</a>
           </Menu.Item>
         </Menu>
       </Header>
