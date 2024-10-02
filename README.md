@@ -1,12 +1,3 @@
 Trying to do the bailey blog using Typescript
 
-You need react router dom installed:
-
-npm install react-router-dom
-
-You need to install 'antd':
-npm install antd
-
-You need typesrcipt version 5.6.2
-
-You need react version 5.5
+You need to have node.js installed because I do not have the node_modules installed on this repository
