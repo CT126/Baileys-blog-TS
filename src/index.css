@@ -1,0 +1,142 @@
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.navbar {
+  background: linear-gradient(90deg, #FF5F6D, #FFC371);
+  display: flex;
+  align-items: center;
+  padding: 0 20px;
+  height: 75px; 
+  width: 100%;
+  flex-shrink: 0;
+  min-height: 75px;
+}
+
+.logo {
+  flex-shrink: 0;
+  margin-right: auto;
+}
+
+.ant-menu-horizontal {
+  background: transparent; 
+  border-bottom: none;
+  flex-grow: 1;
+  justify-content: flex-end;
+}
+
+.ant-menu-item {
+  margin: 0 10px;
+  font-size: 1.2rem;
+  font-weight: 600;
+  border-radius: 20px;
+  transition: background-color 0.5s;
+}
+
+.ant-menu-item a {
+  color: black;
+}
+
+.ant-menu-item:hover,
+.ant-menu-item-active {
+  background-color: skyblue !important;
+}
+
+.top-row,
+.bottom-row {
+  display: flex;
+  flex: 1;
+  height: 50vh;
+}
+
+.bg-left,
+.bg-right,
+.bg-center-left,
+.bg-center-right {
+  background-size: cover;
+  background-position: center;
+  width: 25%;
+}
+
+.top-row .bg-left {
+  background-image: url('Imgs/Bailey at Snowdonia.jpg');
+}
+
+.top-row .bg-center-left {
+  background-image: url('Imgs/Bailey at the beach.jpg');
+}
+
+.top-row .bg-center-right {
+  background-image: url('Imgs/baby.jpeg');
+}
+
+.top-row .bg-right {
+  background-image: url('Imgs/teddy.jpeg');
+}
+
+.bottom-row .bg-left {
+  background-image: url('Imgs/IMG_20240827_183443918.jpg');
+}
+
+.bottom-row .bg-center-left {
+  background-image: url('Imgs/bailey nose.jpg');
+}
+
+.bottom-row .bg-center-right {
+  background-image: url('Imgs/snowy bailey .jpg');
+}
+
+.bottom-row .bg-right {
+  background-image: url('Imgs/cutie.jpg');
+}
+
+.btn-treat {
+  background-color: #FFC371;
+  color: black;
+  font-size: 1.2rem;
+  font-weight: bold;
+  border: none;
+  border-radius: 20px;
+  padding: 10px 20px;
+  margin: 20px 0; 
+  transition: background-color 0.3s ease; 
+}
+
+
+
+.btn-treat:hover {
+  background-color: #FF5F6D;
+  color: white;
+}
+
+
+
+.treat-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(90deg, #FF5F6D, #FFC371);
+  gap: 50px; 
+  height: 50px;
+}
+
+.image {
+  width: 50%; 
+  height: 50%; 
+}
+.go-to-top {
+  background-color: rgba(255, 255, 255, 0.25); 
+  color: rgb(25, 0, 255); 
+  border: none;
+  border-radius: 100%;
+  width: 70px;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
